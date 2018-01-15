@@ -1,0 +1,56 @@
+body{
+	background-color: #000000;
+	width: 100%;
+	color: white;
+}
+
+.rosa{
+	background: url(../img/bienvenida.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: black;
+	height: 400px;
+	width: 100%;
+	margin: 0px;
+}
+
+h3{
+	font-size: 40px;
+}
+
+a[href	]
+{
+	color: #846608;
+}
+
+.articulo{
+	width: 50%;
+	height: 400px;
+	background:white;
+	color: black;
+}
+
+.página{
+	height: 150px;
+	width: 100%;
+	background: white;
+	font-size: 100px;
+	color: black;
+	text-align: center;
+
+}
+
+a{
+	color: #bf8f00;
+}
+
+/* SELECTORES DE HIJOS*/
+div>p{
+	background: white;
+	color: black;
+	font-size: 1.5em;
+}
+
+
+
+

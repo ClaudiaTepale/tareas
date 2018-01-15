@@ -1,0 +1,153 @@
+*{
+	font-family: Helvetic;
+}
+body{
+	margin: 0px;
+}
+
+/* CABECERA*/
+.arriba{
+	width: 100%;
+	height: 100px;
+	background: #F1C40F;
+	margin: 0;
+	text-align: center;
+	padding: 3%;
+	color: white;
+	font-size: 40px;
+}
+
+.arriba h1{
+	margin: auto;
+	display: inline-block;
+}
+/*MENÚ*/
+
+.menu {
+	text-align: center;
+	font-size: 20px;
+}
+
+.menu li{
+	display: inline;
+}
+
+.menu a{
+	margin: 3%;
+	padding: 3%;
+	display: inline-block;
+	text-decoration: none;
+	height: 15%;
+	width: 12%;
+	font-weight: bold;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+.in{
+	background-color: #8BC34A;
+	box-shadow: 3px;
+}
+.menu li:hover .in{
+	background-color: #388E3C;
+}
+li.activoin a{
+	background-color: #388E3C;
+}
+
+
+.ed{
+	background-color: #00ACC1;
+	box-shadow: 3px;
+}
+
+.menu li:hover .ed{
+	background-color: #00838F;
+}
+li.activoed a{
+	background-color: #00838F;
+}
+
+.ho{
+	background-color: #F06292;
+	box-shadow: 3px;	
+}
+.menu li:hover .ho{
+	background-color: #D81B60;
+}
+li.activoho a{
+	background-color: #D81B60;
+}
+
+
+
+
+
+
+/*CUERPO*/
+.cuerpo{
+	margin: 60px;
+	text-align: center;
+}
+
+h4{
+	font-size: 30px;
+	text-align: center;
+}
+.foto{
+	height: 400px;
+	width: 250px;
+}
+
+h2{
+	font-size: 60px;
+	text-align: center;
+}
+h6{
+	font-size: 30px;
+	text-align: left;
+}
+.logo{
+	height: 125px;
+	width: 200px;
+	display: inline-block;
+	float: right;
+}
+.ima{
+	height: 350px;
+	width: 300px;
+	text-align: center;
+}
+
+
+ 
+/*FOOTER*/
+
+.footer{
+	background:#F1C40F;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	padding: 2%;
+}
+
+
+.footer li{
+	display: inline-block;
+	padding: 1%;
+	margin: 1%;
+}
+
+.footer a{
+	padding: 5%;
+	text-decoration: none;
+	color: white;
+	background:#F1C40F; 
+}
+
+
+.footer li a:hover{
+	background: #FFA000;
+}
+
